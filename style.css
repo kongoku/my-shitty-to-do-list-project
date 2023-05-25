@@ -1,0 +1,59 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to right, #f88379 0%, #ffa500 50%,#edb46a 100%);
+    background-size: 400% 400%;
+
+    animation: gradient 6s ease infinite;
+    letter-spacing: 1.5px;
+}
+
+
+div {
+    text-align: center;
+    color: whitesmoke;
+}
+#inputText { 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+
+}
+#addtask {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.bigger {
+    font-size: larger;
+}
+
+ol {
+    display: inline-block;
+    text-align:center ;
+    border: 2.4px solid whitesmoke;
+    border-radius: 3%;
+    
+}
+
+
+
